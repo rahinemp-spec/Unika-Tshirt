@@ -1,5 +1,6 @@
 
 import React, { useState, useMemo, useRef, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Layout from './components/Layout';
 import AIDesigner from './components/AIDesigner';
 import StylistChat from './components/StylistChat';
@@ -360,6 +361,7 @@ const App: React.FC = () => {
       {view === 'checkout' && <CheckoutForm subtotal={subtotal} shippingFee={shippingFee} grandTotal={grandTotal} cartItems={cart} onBack={() => setView('cart')} onSuccess={() => { setCart([]); setView('success'); }} formatPrice={formatPrice} />}
       {view === 'success' && <SuccessPage onContinue={() => setView('shop')} />}
       <StylistChat />
+      <SpeedInsights />
     </Layout>
   );
 };
