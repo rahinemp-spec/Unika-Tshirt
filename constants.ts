@@ -49,29 +49,26 @@ export const PRODUCTS: Product[] = [
     description: 'The original UNIKA mark on high-quality premium cotton.',
     image: 'https://images.unsplash.com/photo-1527719327859-c6ce80353573?auto=format&fit=crop&q=80&w=600',
     category: 'Modern'
+  }
+];
+
+export const REVIEWS = [
+  {
+    name: "Ariful Islam",
+    text: "The quality of the print is insane. You can't find these designs anywhere else in Dhaka.",
+    rating: 5,
+    role: "Digital Artist"
   },
   {
-    id: '7',
-    name: 'Arctic Mirage',
-    price: 1400,
-    description: 'Cool blue tones and ice-shard patterns. Stay frosty.',
-    image: 'https://images.unsplash.com/photo-1554568218-0f1715e72254?auto=format&fit=crop&q=80&w=600',
-    category: 'Modern'
+    name: "Samiya Rahman",
+    text: "I used the AI Designer to make a shirt for my brother's birthday. He was stunned. Best gift ever!",
+    rating: 5,
+    role: "UGC Creator"
   },
   {
-    id: '8',
-    name: 'Retro VHS Glitch',
-    price: 1150,
-    description: 'Distorted aesthetics for the digital nomad. 90s vibes.',
-    image: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=600',
-    category: 'Vintage'
-  },
-  {
-    id: '9',
-    name: 'Midnight Bloom',
-    price: 1200,
-    description: 'Floral patterns that only reveal their beauty in the dark.',
-    image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&q=80&w=600',
-    category: 'Abstract'
+    name: "Tanvir Ahmed",
+    text: "Minimalist, bold, and unique. UNIKA is literally the future of street fashion.",
+    rating: 5,
+    role: "Photographer"
   }
 ];
